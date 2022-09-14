@@ -11,7 +11,7 @@ function getTextElementValueById(elementId) {
   const textElement = document.getElementById(elementId);
   const textElementValueString = textElement.innerText;
   const textElementValue = textElementValueString;
-  // console.log(textElementValue);
+  // console.log('inside function',textElementValue);
   return textElementValue;
 }
 
